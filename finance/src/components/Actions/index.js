@@ -7,7 +7,7 @@ import {
     ScrollView
 } from 'react-native';
 
-import { AntDesing } from '@expo/vector-icons'
+import { AntDesign } from '@expo/vector-icons'
 
 export default function Actions() {
  return (
@@ -15,7 +15,7 @@ export default function Actions() {
         
         <TouchableOpacity style={styles.actionButton}>
             <View>
-                <AntDesing name="addfolder" size={26} color="#000" />
+                <AntDesign name="addfolder" size={26} color="#000" />
             </View>
 
             <Text style={styles.labelButtom}>Entradas</Text>
